@@ -211,9 +211,18 @@
     <Compile Include="Migrations\202012311651108_AddBirthdateToCustomer.Designer.cs">
       <DependentUpon>202012311651108_AddBirthdateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012311709593_AddRequiredToMovieName.cs" />
+    <Compile Include="Migrations\202012311709593_AddRequiredToMovieName.Designer.cs">
+      <DependentUpon>202012311709593_AddRequiredToMovieName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012311719564_AddMovieProperties.cs" />
+    <Compile Include="Migrations\202012311719564_AddMovieProperties.Designer.cs">
+      <DependentUpon>202012311719564_AddMovieProperties.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -327,6 +336,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012311651108_AddBirthdateToCustomer.resx">
       <DependentUpon>202012311651108_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012311709593_AddRequiredToMovieName.resx">
+      <DependentUpon>202012311709593_AddRequiredToMovieName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012311719564_AddMovieProperties.resx">
+      <DependentUpon>202012311719564_AddMovieProperties.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
